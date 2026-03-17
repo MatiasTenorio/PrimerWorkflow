@@ -6,7 +6,7 @@ on: [push]
 
 jobs: 
   saludo:
-    runs-out: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Paso 1
         run: echo "¡Hola Mundo!"
